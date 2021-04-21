@@ -30,6 +30,7 @@ const createTodo = function(text){
 inputTodo.addEventListener('keyup', ({key}) => {
     if (key === "Enter") {
         createTodo(inputTodo.value);
+        inputTodo.value='';
     }
 });
 
