@@ -22,22 +22,22 @@ button{
     padding-bottom: 10px;
 }
 
+
 .todo{
     width: 79%;
     padding-left: 2px;
     height: 22px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    
     background-color: #7f63e7;
     border: dotted 2px;
 
 }
-.checkbox{
-    display: inline;
-    position: relative;
-    right: 175px;
-    bottom: 2px;
+.todo > div{
+    flex-grow: 6;
 }
+
 .delete{
     text-align: center;
     position: relative;
