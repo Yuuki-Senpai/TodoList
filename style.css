@@ -1,0 +1,75 @@
+input{
+    all: unset;
+}
+
+button{
+    all: unset;
+}
+
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cadetblue;
+    border-radius: 3px;
+    padding-bottom: 10px;
+}
+
+.todo{
+    width: 79%;
+    padding-left: 2px;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #7f63e7;
+    border: dotted 2px;
+
+}
+.checkbox{
+    display: inline;
+    position: relative;
+    right: 175px;
+    bottom: 2px;
+}
+.delete{
+    text-align: center;
+    position: relative;
+    
+}
+button:active{
+    font-size: smaller;
+}
+
+.purple{
+    background-color: #4b2bc0;
+}
+
+.blue{
+    background-color: rgb(85, 127, 206);
+}
+
+.inputTodo{
+    width: 80%;
+    padding: 0;
+    border: 0;
+    background-color: white;
+    color: black;
+}
+.title{
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+    width: 100%;
+}
+
+.strikethrought{
+    text-decoration: line-through;
+}
+
