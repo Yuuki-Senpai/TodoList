@@ -13,9 +13,7 @@ const createTodo = function(text){
     let crossMark = createElement('❌','button');
     let textTodo = createElement(text,'div');
     let todo = createElement('','div');
-    todo.appendChild(textTodo);
-    todo.appendChild(checkbox);
-    todo.appendChild(crossMark);
+    todo.append(textTodo,checkbox,crossMark);
     todo.classList.add('todo');
     crossMark.classList.add('delete');
     checkbox.classList.add('checkbox');
